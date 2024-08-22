@@ -1,38 +1,12 @@
 <template>
-  <button class="button" :class="typeClass" @click="handleClick">
-    <slot></slot>
-  </button>
+  <a-button :type><slot></slot></a-button>
 </template>
 
 <script setup lang="ts">
-import { computed } from "vue";
-const props = defineProps({
+defineProps({
   type: {
     type: String,
-    default: "default",
+    default: "primary",
   },
 });
-const typeClass = computed(() => `button-${props.type}`);
-const handleClick = () => {
-  console.log("click");
-};
 </script>
-
-<style lang="less" scoped>
-.button {
-  border-radius: 4px;
-  padding: 8px 16px;
-  font-size: 16px;
-  cursor: pointer;
-
-  &-default {
-    background-color: #eee;
-    color: #333;
-  }
-
-  &-primary {
-    background-color: #007bff;
-    color: #fff;
-  }
-}
-</style>
