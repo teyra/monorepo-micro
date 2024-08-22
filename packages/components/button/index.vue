@@ -1,12 +1,10 @@
 <template>
-  <a-button :type><slot></slot></a-button>
+  <el-button :type><slot></slot></el-button>
 </template>
 
 <script setup lang="ts">
-defineProps({
-  type: {
-    type: String,
-    default: "primary",
-  },
-});
+import { type ButtonType } from 'element-plus'
+withDefaults(defineProps<{ type: ButtonType }>(), {
+  type: 'primary',
+})
 </script>

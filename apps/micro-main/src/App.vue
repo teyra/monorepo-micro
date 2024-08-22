@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ElButton, ElMedia } from '@micro/components'
+import { MCButton, MCMedia } from '@micro/components'
 import { ref } from 'vue'
 const url = ref(
   'https://ccsmec-test-public.oss-cn-shanghai.aliyuncs.com/ai_marketing/20240820/source/pic/91038e7cfcc24dfbb4745b9895fb9b99.png'
@@ -7,8 +7,8 @@ const url = ref(
 </script>
 
 <template>
-  <ElButton>测试111</ElButton>
-  <ElMedia :src="url" :preview-src-list="[url]"></ElMedia>
+  <MCButton type="danger">测试main</MCButton>
+  <MCMedia :src="url" :preview-src-list="[url]"></MCMedia>
 </template>
 
 <style scoped>
