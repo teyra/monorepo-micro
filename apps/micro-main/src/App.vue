@@ -7,7 +7,7 @@ const url = ref(
 </script>
 
 <template>
-  <MCButton type="danger">测试main</MCButton>
+  <MCButton type="danger">测试child</MCButton>
   <MCMedia :src="url" :preview-src-list="[url]"></MCMedia>
 </template>
 
