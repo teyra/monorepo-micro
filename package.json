@@ -11,7 +11,7 @@
     "ci:publish": "pnpm publish -r"
   },
   "keywords": [],
-  "author": "",
+  "author": "teyra",
   "license": "ISC",
   "dependencies": {
     "@micro/components": "workspace:^",
