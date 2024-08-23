@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"pnpm -C apps/micro-main dev\" \"pnpm -C apps/micro-child dev\"",
-    "build": "pnpm -C apps/micro-child build"
+    "build": "pnpm -C apps/micro-child build",
+    "ci:publish": "pnpm publish -r"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,7 @@
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.7",
     "@rushstack/eslint-patch": "^1.8.0",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.14.5",
