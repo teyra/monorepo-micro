@@ -9,7 +9,7 @@
     "build": "pnpm -C apps/micro-child build",
     "changeset": "changeset",
     "packages-version": "changeset version",
-    "publish": "changeset publish --registry=https://registry.npmjs.com/"
+    "publish": "changeset publish --force --registry=https://registry.npmjs.com/"
   },
   "keywords": [],
   "author": "teyra",
