@@ -9,13 +9,13 @@ importers:
   .:
     dependencies:
       '@micro/components':
-        specifier: workspace:^
+        specifier: workspace:1.1.0
         version: link:packages/components
       '@micro/enums':
-        specifier: workspace:^
+        specifier: workspace:1.1.0
         version: link:packages/enums
       '@micro/utils':
-        specifier: workspace:^
+        specifier: workspace:1.1.0
         version: link:packages/utils
       '@types/lodash-es':
         specifier: ^4.17.12

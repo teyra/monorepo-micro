@@ -15,9 +15,9 @@
   "author": "teyra",
   "license": "ISC",
   "dependencies": {
-    "@micro/components": "workspace:^",
-    "@micro/enums": "workspace:^",
-    "@micro/utils": "workspace:^",
+    "@micro/components": "workspace:1.1.0",
+    "@micro/enums": "workspace:1.1.0",
+    "@micro/utils": "workspace:1.1.0",
     "@types/lodash-es": "^4.17.12",
     "@vueuse/core": "^11.0.1",
     "element-plus": "^2.8.0",
