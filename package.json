@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"pnpm -C apps/micro-main dev\" \"pnpm -C apps/micro-child dev\"",
-    "build": "pnpm -C apps/micro-child build",
     "changeset": "changeset",
     "packages-version": "changeset version",
     "publish": "changeset publish --force --registry=https://registry.npmjs.com/"
@@ -15,9 +14,6 @@
   "author": "teyra",
   "license": "ISC",
   "dependencies": {
-    "@micro/components": "workspace:1.1.0",
-    "@micro/enums": "workspace:1.1.0",
-    "@micro/utils": "workspace:1.1.0",
     "@types/lodash-es": "^4.17.12",
     "@vueuse/core": "^11.0.1",
     "element-plus": "^2.8.0",

@@ -1,13 +1,7 @@
 # @micro/utils
 
-## 2.0.0
+## 1.0.1
 
-### Major Changes
+### Patch Changes
 
-- 1.0.2
-
-## 1.1.0
-
-### Minor Changes
-
-- 1.0.1
+- 1.0.0版本release
