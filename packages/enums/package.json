@@ -1,6 +1,6 @@
 {
   "name": "@micro/enums",
-  "version": "1.0.1",
+  "version": "3.0.0",
   "description": "micro enums",
   "main": "index.ts",
   "private": true,

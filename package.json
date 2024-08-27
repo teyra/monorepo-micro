@@ -1,6 +1,6 @@
 {
   "name": "monorepo-micro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "dev": "concurrently \"pnpm -C apps/micro-main dev\" \"pnpm -C apps/micro-child dev\"",
     "changeset": "changeset",
     "packages-version": "changeset version",
-    "publish": "changeset publish --force --registry=https://registry.npmjs.com/"
+    "publish": "changeset publish --force --no-git-checks --registry=https://registry.npmjs.com/"
   },
   "keywords": [],
   "author": "teyra",

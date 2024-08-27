@@ -1,6 +1,6 @@
 {
   "name": "@micro/utils",
-  "version": "1.0.1",
+  "version": "3.0.0",
   "description": "micro utils",
   "main": "index.ts",
   "private": true,
